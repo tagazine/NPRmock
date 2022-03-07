@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(248, 245, 245);
+    font-family: "Trebuchet Bold";
+}
+
+#nav-space {
+    color: black;
+    font-size: .7em;
+    font-weight: bold;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30%;
+}
+
+#search {
+    display: flex;
+    flex-direction: row;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 60%;
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.latest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+hr {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.body>p {
+    font-size: .7em;
+    color: gray;
+}
+
+#latest-links>h6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.floater {
+    position: sticky;
+    top: 0;
+    background-color: navy;
+    z-index: 9;
+    width: 17%;
+    opacity: .5;
+    margin-left: 52.7em;
+    
+
+}
+/* .floater>a {
+    color: white;
+    position: inline-block;
+} */
+
+#samesies {
+    /* position: absolute; */
+    
+}
