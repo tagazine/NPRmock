@@ -23,8 +23,7 @@ span {
 .body {
     display: flex;
     flex-direction: column;
-    position: relative;
-    width: 60%;
+    width: 70%;
     background-color: white;
     padding: 1em;
     margin: 1em;
@@ -68,28 +67,24 @@ a {
 }
 
 button {
-    color: white;
     background-color: red;
     border: none;
 }
 
 .floater {
-    position: sticky;
+    position: absolute;
+    background-color: rgb(12, 12, 90);
     top: 0;
-    background-color: navy;
     z-index: 9;
-    width: 17%;
-    opacity: .5;
-    margin-left: 52.7em;
-    
-
+    width: 28%;
+    margin-left: 68%;
+    margin-top: 1em;
+    margin-right: 10%;
+    padding-top: 1.5em;
 }
-/* .floater>a {
-    color: white;
-    position: inline-block;
-} */
 
-#samesies {
-    /* position: absolute; */
-    
+span {
+    text-align: justify;
 }
+
+
